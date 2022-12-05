@@ -1,0 +1,17 @@
+.block {
+    position: relative;
+    margin: 51px 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.block__col:first-child {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    width: 300px;
+    overflow: auto;
+}
+.block__col:last-child {
+    width: calc(100% - 320px);
+}

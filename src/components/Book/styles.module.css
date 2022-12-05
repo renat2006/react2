@@ -1,0 +1,18 @@
+.card {
+    display: flex;
+    padding: 16px 20px;
+    width: 100%;
+    min-height: 216px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin: 0 0 16px 20px;
+    justify-content: space-between;
+}
+
+.card:last-child {
+    margin: 0 0 0 20px;
+}
+
+.loading {
+    margin-left: 20px;
+}
